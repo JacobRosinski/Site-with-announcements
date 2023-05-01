@@ -1,0 +1,126 @@
+body
+{
+    background-color: #ECF0F1;
+    font-family: Verdana;
+    background-image: url(/images/background.png);
+    background-size: 500px;
+    color: black;
+    min-width: 1080px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header 
+{
+    top: 20px;
+    font-size: 25px;
+    height: 100px;
+    width: 100%;
+    min-width: 1080px;
+    max-width: 1920px;
+}
+header section
+{
+    float: left;
+    text-align: center;
+}
+#logo
+{
+    width: 10%;
+    height: 100%;
+}
+#logo img
+{
+    border: black 1px solid;
+    width: 99px;
+    height: 99px;
+}
+#name
+{
+    width: 76%;
+    height: 100%;
+    margin: 0 2% 0 2%;
+    border-radius: 50px;
+}
+#login
+{
+    width: 10%;
+    height: 100%;
+}
+#login>a
+{
+    margin-top: 25px;
+}
+
+
+
+article
+{
+    background-color: #979A9A;
+    width: 96%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 20px 2% 20px 2%;
+    box-shadow: inset 0px 0px 30px 1px black;
+    float: left;
+}
+article>img
+{
+    background-color: aqua;
+    display: block;
+    width: 20%;
+    max-width: 500px;
+    float: left;
+}
+#article_description
+{
+    background-color: aliceblue;
+    text-align: justify;
+    width: 78%;
+    margin: 0 1% 0 1%;
+    float: left;
+}
+#article_editor
+{
+    background-color: #bab1ba;
+    margin: 0 1% 0 1%;
+    float: left;
+}
+#article_editor a
+{
+    margin-right: 30px;
+}
+
+
+
+.button 
+{
+
+	box-shadow: inset 0px 0px 30px 1px black;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.button:hover 
+{
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.button:active
+{
+	position:relative;
+	top:1px;
+}
